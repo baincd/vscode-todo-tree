@@ -1,3 +1,13 @@
+# Todo Tree (Chris' Version)
+
+This is the excellent Todo Tree VS Code extension developed by Gruntfuggly, with the following fixes applied by baincd:
+
+- Fixes TODOs missing after appying group by tag (issue 749)
+- Fixes Duplicate issues in TODOs view when changing view modes (issue 833)
+
+------------------------------------------------------------
+
+
 # Todo Tree
 
 This extension quickly searches (using [ripgrep](https://github.com/BurntSushi/ripgrep)) your workspace for comment tags like TODO and FIXME, and displays them in a tree view in the activity bar. The view can be dragged out of the activity bar into the explorer pane (or anywhere else you would prefer it to be).

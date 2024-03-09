@@ -1,25 +1,21 @@
 {
     "name": "todo-tree",
-    "displayName": "Todo Tree",
-    "description": "Show TODO, FIXME, etc. comment tags in a tree view",
+    "displayName": "Todo Tree (Chris' Version)",
+    "description": "Show TODO, FIXME, etc. comment tags in a tree view (+Chris' fixes)",
     "keywords": [
         "todo",
         "task",
         "tasklist",
         "multi-root ready"
     ],
-    "version": "0.0.224",
+    "version": "0.0.224+baincd2",
     "license": "MIT",
     "icon": "resources/todo-tree.png",
-    "publisher": "Gruntfuggly",
+    "publisher": "baincd",
     "engines": {
         "vscode": "^1.72.0"
     },
-    "repository": "https://github.com/Gruntfuggly/todo-tree",
-    "bugs": {
-        "url": "https://github.com/Gruntfuggly/todo-tree/issues",
-        "email": "gruntfuggly@googlemail.com"
-    },
+    "repository": "https://github.com/baincd/todo-tree",
     "scripts": {
         "test": "qunit",
         "vscode:prepublish": "node ./buildCodiconNames.js && webpack --mode production",
@@ -1187,11 +1183,6 @@
                 }
             }
         ]
-    },
-    "__metadata": {
-        "id": "261cac81-cd7b-4555-bb41-0c2d2bcd3e70",
-        "publisherId": "d4906d2e-f2ee-492d-9c7c-02b6160599ec",
-        "publisherDisplayName": "Gruntfuggly"
     },
     "dependencies": {
         "@primer/octicons": "^17.0.0",

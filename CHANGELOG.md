@@ -1,5 +1,10 @@
 # Todo Tree Change Log
 
+## v0.0.224+baincd2 - 2024-03-09
+
+- Fix TODOs missing after appying group by tag (issue 749)
+- Fix Duplicate issues in TODOs view when changing view modes (issue 833)
+
 ## v0.0.224 - 2023-02-09
 
 - Remove filewatcher functionality
