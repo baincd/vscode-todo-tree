@@ -867,9 +867,18 @@ function activate( context )
         provider.clear( vscode.workspace.workspaceFolders );
         provider.rebuild();
 
-        refreshOpenFiles();
+        // refreshOpenFiles();
 
-        addResultsToTree();
+        // addResultsToTree();
+
+        // FIX1
+        // rebuild();
+
+        // FIX2
+        iterateSearchList()
+            .finally( refreshOpenFiles )
+            .then( addResultsToTree );
+
         setButtonsAndContext();
     }
 
